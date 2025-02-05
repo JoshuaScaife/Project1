@@ -31,4 +31,8 @@ int main()
 
     energy = Ryberg_energy*pow(atomic_number, 2)*(1/pow(n_final, 2) - 1/pow(n_initial, 2));
     std::cout << energy;
+
+    /* 
+    Test line 
+    */
 }
