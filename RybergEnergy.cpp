@@ -139,7 +139,7 @@ int main()
         // removes leading and trailing white spaces
         units = remove_white_space(units); 
         //validate unit input
-        while (not((units == "J") or (units == "EV"))) 
+        while (!((units == "J") || (units == "EV"))) 
         {
             std::cout << "Invalid Unit: please enter either 'J' or 'eV': ";
             std::cin >> units;
@@ -179,7 +179,7 @@ int main()
         std::transform(repeat_string.begin(), repeat_string.end(), repeat_string.begin(), ::toupper);
         repeat_string = remove_white_space(repeat_string); 
         // validate input
-        while (not((repeat_string=="Y") or (repeat_string=="N"))) 
+        while (!((repeat_string=="Y") || (repeat_string=="N"))) 
         {
             std::cout << "Invalid Input: please enter either 'Y' or 'N': ";
             std::cin >> repeat_string;
